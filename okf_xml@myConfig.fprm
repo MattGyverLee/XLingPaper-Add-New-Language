@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<its:rules xmlns:its="http://www.w3.org/2005/11/its"
+    version="1.0">
+    <its:translateRule selector='//*[@contentType="fr"]/text()' translate="yes"/>
+    <its:translateRule selector='//*[@contentType="en"]/text()' translate="no"/>
+    <its:translateRule selector='//*[@contentType="en"]' translate="no"/>
+</its:rules>
